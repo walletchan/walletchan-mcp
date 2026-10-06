@@ -6,7 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 
 ## [Unreleased]
 
-_Nothing yet._
+### Changed
+
+- Maintain the package in its own public repository with standalone development and release checks.
+- Pin the published RPC dependency and resolve its built CLI without a sibling monorepo checkout.
 
 ## [0.4.0] - 2026-07-09
 
